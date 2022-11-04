@@ -1,0 +1,25 @@
+h3
+{
+   font-size: 25px !important; 
+}
+
+.btn-success:hover
+{
+  background-color: red;
+}
+
+canvas
+{
+   animation-name:baninas;
+   animation-duration: 4s;
+   animation-iteration-count: infinite;
+   animation-delay: 2s;
+   animation-direction: alternate-reverse;
+}
+
+@keyframes baninas
+{
+    from{box-shadow: 1px 1px 220px red;}
+    to{box-shadow: 1px 1px 220px rgb(255, 255, 0);}
+
+}
